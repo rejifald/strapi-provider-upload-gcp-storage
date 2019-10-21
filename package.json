@@ -1,0 +1,29 @@
+{
+  "name": "strapi-provider-upload-gcp-storage",
+  "version": "0.0.2",
+  "description": "Strapi upload provider for Google Cloud Storage",
+  "keywords": [
+    "Strapi",
+    "Provider",
+    "Google Cloud Storage"
+  ],
+  "main": "src/index.js",
+  "author": {
+    "email": "rejifald@gmail.com",
+    "name": "Oleksandr Zhuravlov",
+    "url": "https://github.com/rejifald"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rejifald/strapi-provider-upload-gcp-storage"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@google-cloud/storage": "^4.0.0",
+    "fast-crc32c": "^2.0.0"
+  }
+}
