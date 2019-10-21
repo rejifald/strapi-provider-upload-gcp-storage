@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-gcp-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Strapi upload provider for Google Cloud Storage",
   "keywords": [
     "Strapi",

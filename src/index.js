@@ -37,7 +37,7 @@ module.exports = {
           throw (e instanceof Error ? e : new Error(e))
         }
 
-        file.url = `https://storage.cloud.google.com/${bucket}/${bucketFile.name}`
+        file.url = `https://storage.googleapis.com/${bucket}/${bucketFile.name}`
       },
       delete: file => {
         throw new Error('File deletion not implemented yet')
